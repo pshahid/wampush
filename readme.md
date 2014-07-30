@@ -8,6 +8,15 @@ About
 
 I created this library out of need. I couldn't find any existence of a library like this, only [hints](http://stackoverflow.com/questions/23223619/angularjs-and-autobahn-js-wamp-implementation) on how to do it through Stack Overflow. 
 
+Include/Install
+---------------
+
+This library can be included or installed in multiple ways:
+
+* wampush on Bower (preferred method)
+* Clone this repo locally
+* Copy/paste it like some sort of animal
+
 Example
 -------
 
