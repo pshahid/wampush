@@ -1,7 +1,9 @@
 WAMPush
 -------
 
-WAMPush is a library to connect your Angular app to a websocket WAMP server. It uses the Autobahn JS (WAMP impl) library from Tavendo to facilitate JSON PubSub/RPC over Websockets as an Angular service.
+The [WAMP](http://wamp.ws) acronym stands for Web Application Messaging Protocol. It's a subprotocol for web app JSON RPC, **NOT Windows Apache Mysql PHP**!
+
+WAMPush is a library to connect your Angular app to a websocket [WAMP](http://wamp.ws) server. It uses the Autobahn JS (WAMP impl) library from Tavendo to facilitate JSON PubSub/RPC over Websockets as an Angular service.
 
 About
 -----
