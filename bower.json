@@ -1,0 +1,25 @@
+{
+  "name": "wampush",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pshahid/wampush",
+  "authors": [
+    "Paul Shahid <pshahid90@gmail.com>"
+  ],
+  "description": "Angular WAMP service library",
+  "main": "?",
+  "keywords": [
+    "angular",
+    "wamp",
+    "websockets",
+    "push",
+    "wamppush"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
