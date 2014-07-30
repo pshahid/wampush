@@ -1,7 +1,7 @@
 /*
 Manages connections to a WAMP server, allows you to hook in with a JS API for RPC.
 
-Credit to angular-ui for teaching me how to write a pluggable service.
+Credit to angular-ui and restangular for teaching me how to write a pluggable service.
 */
 
 $Push.$inject = ['$q', '$injector'];
