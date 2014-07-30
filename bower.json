@@ -12,7 +12,7 @@
     "wamp",
     "websockets",
     "push",
-    "wamppush"
+    "wampush"
   ],
   "license": "MIT",
   "ignore": [
