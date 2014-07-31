@@ -30,7 +30,7 @@ Roadmap
 This first started before the WAMP2 implementation was even specified, so it will first deal with WAMP1. Eventually, I would like to use WAMP2 but support backward compatibility with WAMP1 (it's simpler/easier to get started with).
 
 * Tests/test suite
-* WAMP1 Connectivity
+* -WAMP1 Connectivity-
 * Put it on Bower
 * PubSub/RPC Wrapper
 * Allow users of lib to hook in their custom JS API for PubSub and RPC
