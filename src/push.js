@@ -133,4 +133,4 @@ function $Push($q, $injector) {
     }
 }
 
-angular.module('push.wamp').service('$push', $Push);
+angular.module('push.wamp', []).service('$push', $Push);
