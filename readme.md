@@ -10,7 +10,7 @@ WAMPush is a library to connect your Angular app to a websocket [WAMP](http://wa
 About
 -----
 
-I created this library out of need since I couldn't find anything like this for Angular already out there, only [hints](http://stackoverflow.com/questions/23223619/angularjs-and-autobahn-js-wamp-implementation) on how to do it through Stack Overflow. It's useful for connecting your app to a back-end WAMP server. WAMP has proven to be incredibly useful for remote procedure invocation and the pub-sub paradigms. I use it in many apps before I started learning Angular.
+I created this library out of need since I couldn't find anything like this for Angular already out there, only [hints](http://stackoverflow.com/questions/23223619/angularjs-and-autobahn-js-wamp-implementation) on how to do it through Stack Overflow. It's useful for connecting your app to a back-end WAMP server. WAMP has proven to be incredibly useful for remote procedure invocation and the pub-sub paradigms. I used it in many apps before I started learning Angular.
 
 Dependencies
 ------------
@@ -35,8 +35,7 @@ Example
 
 Example of a useless app.js to get started. Examples forthcoming.
 
-```
-javascript
+```javascript
 
 var app = angular.module('app', [
 	'wampush'
