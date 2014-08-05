@@ -51,12 +51,12 @@ app.run(['$push', function($push) {
 		'#getTime', 
 		null, 
 		function(data) {
-			console.log('callback!');
-			console.log(cb);
+			console.log('The time is');
+			console.log(data);
 		}, 
 		function(err) {
-			console.log('error!');
-			console.log(err);
+			console.error('Error encountered while invoking #getTime:');
+			console.error(err);
 		}
 	);
 }]);
