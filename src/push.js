@@ -6,8 +6,6 @@ Credit to angular-ui and restangular for teaching me how to write a pluggable se
 
 $Push.$inject = ['$q', '$injector'];
 
-// var push = angular.module('Push', []);
-
 function $Push($q, $injector) {
     ab._Deferred = $q.defer;
     var self = this;
@@ -74,18 +72,6 @@ function $Push($q, $injector) {
         }
     };
 
-    // this.getLatestML = function(callback, errback) {
-    //     self.rpc('#getInitMongo', null, callback, errback);
-    // };
-
-    // this.acceptable = function(id) {
-    //     self.rpc('#acceptable', id);
-    // };
-
-    // this.unacceptable = function(id) {
-    //     self.rpc('#unacceptable', id);
-    // };
-
     function connectSuccess(session) {
 
         self.session = session;
@@ -133,4 +119,4 @@ function $Push($q, $injector) {
     }
 }
 
-angular.module('push.wamp', []).service('$push', $Push);
+angular.module('wampush', []).service('$push', $Push);
